@@ -1,3 +1,5 @@
+package lesson;
+
 public class GeoDataCloudDataSource implements DataSource<GeoData> {
 
     @Override

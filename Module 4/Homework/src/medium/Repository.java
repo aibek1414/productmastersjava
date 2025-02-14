@@ -1,3 +1,5 @@
+package medium;
+
 public class Repository<T> implements DataSource<T> {
     private final MutableDataSource<T> cachedDataSource;
     private final DataSource<T> cloudDataSource;

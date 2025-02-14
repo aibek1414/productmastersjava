@@ -1,3 +1,5 @@
+package lesson;
+
 public class GeoData {
     private final int id;
     private final double longitude;
@@ -11,7 +13,7 @@ public class GeoData {
 
     @Override
     public String toString() {
-        return "GeoData{" +
+        return "medium.lesson.GeoData{" +
                 "id=" + id +
                 ", longitude=" + longitude +
                 ", latitude=" + latitude +
